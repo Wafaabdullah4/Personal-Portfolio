@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:ital,wght@1,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+body {
+  background-color: hsl(0, 0%, 7%);
+  ;
+}
+
+.sidebar {
+  width: 250px;
+  height: 600px;
+  border: 1px solid;
+  float: left;
+  margin-left: 60px;
+  background-color: hsl(240, 2%, 13%);
+  border: 1px solid hsl(0, 0%, 22%);
+  box-shadow: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
+  z-index: 4;
+  color: white;
+}
+
+.sidebar .sidebar-img {
+  width: 100px;
+  height: 100px;
+  background-color: hsl(0, 0%, 22%);
+  border-radius: 20px;
+  margin: 30px auto 15px;
+}
+
+.sidebar .sidebar-info {}
+
+.sidebar .sidebar-info h2 {
+  text-align: center;
+  font-size: 24px;
+}
+
+.sidebar .sidebar-info p {
+  text-align: center;
+  margin-top: 7px;
+  font-size: 14px;
+  border-radius: 40px;
+  width: 50%;
+  margin: 10px auto;
+  padding: 4px;
+  background-color: hsl(0, 0%, 22%);
+}
+
+.sidebar .sidebar-info hr {
+  background-color: hsl(0, 0%, 22%);
+  width: 70%;
+  margin: 30px auto;
+}
+
+.sidebar .contact{
+  width: 100%
+}
+
+.sidebar .contact-list{
+  display: flex;
+}
+.sidebar .contact-img {
+border-radius: 10px;
+  width: 60px;
+  height: 60px;
+  margin: 10px 10px 10px 10px;
+  background-color: hsl(0, 0%, 22%);
+}
+.sidebar .contact-info{
+  margin: 20px 20px 20px 10px;
+}
+
+.sidebar .contact-info span{
+  color:hsla(0, 0%, 84%, 0.7);
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+.sidebar .contact-info p{
+
+  font-size: 15px;
+}
+
+
+
+.sidebar,
+.main {
+  margin-top: 60px;
+  border-radius: 20px;
+}
+
+.main {
+  width: 900px;
+  height: 600px;
+  float: right;
+  margin-right: 40px;
+  border: 1px solid blue;
+  background-color: hsl(240, 2%, 13%);
+  border: 1px solid hsl(0, 0%, 22%);
+  box-shadow: 2px hsl(0, 0%, 22%);
+  ;
+}
+
+.main nav {
+  border-radius: 0 20px 0 30px;
+  float: right;
+  width: 60%;
+  height: 50px;
+  background-color: hsla(240, 1%, 17%, 0.75);
+}
+
+.main .title-about h2 {
+  float: left;
+  color: #dfcdc3;
+  margin: 20px 30px;
+  font-size: 30px;
+  border-bottom: 4px solid   hsla(45, 100%, 71%, 0.251) ;
+  padding-bottom: 15px;
+  
+}
+.main nav ul {
+  display: flex;
+  float: right;
+  margin-right: 20px;
+  list-style: none;
+  gap: 15px;
+}
+
+.main nav ul li{
+padding: 15px;
+}
+
+.main nav ul li a{
+  text-decoration: none;
+  color: #dfcdc3;
+font-weight: 20px;
+}
+
+.main nav ul li a:active,
+.main nav ul li a:focus,
+.main nav ul li a:hover{
+  text-decoration: none;
+  color: #ffe36f;
+font-weight: 20px;
+}
+
+.main  .about{
+
+  margin:100px auto;
+  width: 95%;
+}
+.main  .about-skill p{
+  float: left;
+  color: #dfcdc3;
+  font-size: 25px;
+  margin: 20px 0 20px 0;
+  padding-bottom: 15px;
+  
+}
+
+.main .about .about-text p{
+  color: #dfcdc3;
+  text-align: justify;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+.main .about .card{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+
+}
+
+.main .about .card .card-skill{
+width: 46%;
+  height: 130px;
+  border: 1px solid hsl(0, 0%, 22%);
+  background-color:hsla(240, 1%, 17%, 0.75);
+margin: 10px auto ;
+border-radius: 10px;
+box-shadow: 0 16px 30px hsla(0, 0%, 0%, 0.25);
+}
+.main .about .card .skill-img{
+width: 40px;
+height: 40px;
+float: left;
+margin-top: 5px;
+}
+.main .about .card .skill-caption{
+  float: right;
+ width: 70%;
+}
+.main .about .card .skill-title{
+color: #dfcdc3;
+text-align: justify;
+margin: 25px 5px 5px 0;
+font-size: 12px;
+}
+.main .about .card .skill-text{
+color: #dfcdc3;
+font-size: 14px;
+}
+
+
+/* Resume  */
+.main .resume{
+  border: 1px solid salmon;
+  margin:100px auto;
+  width: 95%;
+  height: 600px;
+  display: flex;
+}
+.main .resume-conten ul li{
+  display: flex;
+
+}
+.main .resume-content  .resume-title{
+float: left;
+margin: 10px 0px;
+}
+
+.main .resume-content  .resume-caption{
+
+  margin: 10px 100px;
+  line-height: auto;
+}
+
+.main .resume-content  .resume-caption h2{
+  color:#dfcdc3;
+  font-size: 25px;
+  margin-bottom: 14px;
+}
+.main .resume-content  .resume-caption h3{
+color: #dfcdc3;
+font-size: 1r;
+}
+.main .resume-content  .resume-caption ul span{
+ color: hsla(0, 0%, 84%, 0.7);
+}
+.main .resume-content  .resume-caption ol{
+ color: #dfcdc3;
+}
+
