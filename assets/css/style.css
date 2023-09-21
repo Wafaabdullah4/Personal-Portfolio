@@ -13,7 +13,7 @@ body {
 
 .sidebar {
   width: 250px;
-  height: 600px;
+max-height: fit-content;
   border: 1px solid;
   float: left;
 
@@ -150,7 +150,7 @@ body {
 }
 
 .main .about {
-  margin: 100px auto;
+  margin: 120px auto;
   width: 95%;
 }
 
@@ -161,7 +161,9 @@ body {
   margin: 20px 0 20px 0;
   padding-bottom: 15px;
 }
+.main .about .about-text{
 
+}
 .main .about .about-text p {
   color: #dfcdc3;
   text-align: justify;
