@@ -1,3 +1,8 @@
 # Personal-Portfolio
 
-//Masih Dalam Proses pengembangan
+//Teman Teman boleh menggunakan personal portofilio ini dengan bebas 
+
+
+
+
+//Terima kasih banyak ;)
